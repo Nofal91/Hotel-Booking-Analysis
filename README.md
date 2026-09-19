@@ -80,6 +80,47 @@ guest trends across hotel types and time.
 `marketing.twb` workbook focused on marketing-side metrics — segment performance,
 channel mix, and booking share.
 
+## 📸 Dashboard Previews
+
+### Hotel Performance Dashboard (Power BI)
+![Hotel Performance Dashboard](Img/dashboard-hotel-performance.jpeg)
+
+High-level financial view of the business: **$42.71M total revenue**, **117,398 total
+bookings**, a **37.5% cancellation rate**, and **$16.72M in lost revenue** from
+cancellations. Includes average daily rate by month, revenue split by hotel (City
+$25.3M vs. Resort $17.4M) and by customer type, average lead time by week number, and
+revenue by meal plan — with slicers for market segment, meal type, guest country, and
+repeat-guest status.
+
+### Marketing Analysis (Tableau)
+![Marketing Analysis Dashboard](Img/dashboard-marketing-analysis.jpeg)
+
+Marketing and channel-performance view: top country by revenue (**Portugal,
+$5.54M**), cancellation rate by distribution channel, the top 10 booking agents by
+volume vs. revenue, market segment booking share (**Online TA leads at 47.78%**),
+average lead time by market segment, repeat guests by segment, and total revenue by
+market segment — filterable by hotel type, year, and agent ranking.
+
+### Customer Behavior & Performance Analysis (Power BI)
+![Customer Behavior & Performance Analysis](Img/dashboard-customer-behavior.jpeg)
+
+Guest-behavior focused view: **73K confirmed bookings**, a **3.74% repeat-guest
+rate**, **7K bookings needing parking**, and an **18.14% room-discrepancy rate**
+(assigned room type differing from what was reserved). Also breaks down special
+requests by month, meal preference (BB is dominant), average length of stay by hotel,
+bookings by customer type, and bookings by guest country — with slicers for hotel,
+arrival year, customer type, and distribution channel.
+
+### Cancellation & Booking Insights (Power BI)
+![Cancellation & Booking Insights](Img/dashboard-cancellation-insights.png)
+
+Deep dive into *why* bookings are cancelled: of **117K total bookings**, **44K (37.5%)**
+were cancelled. Cancellation rate climbs sharply with lead time (from ~8% for 0–30
+day bookings to over 50% for stays booked 181+ days out), is highest for
+**non-refundable deposits** (99.4% of cancellations), drops as arrival month moves
+from June toward January, and is higher among **new guests (70.2%)** than repeat
+guests. Filterable by hotel, arrival year, and customer type.
+
 ## 🧰 Tools Used
 
 | Tool | Purpose |
